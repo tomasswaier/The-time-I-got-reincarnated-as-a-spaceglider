@@ -4,6 +4,8 @@
 # name of the character.
 
 define e = Character("Eileen")
+image twitch = "Twitch_Render.png"
+define t = Character("Twitch")
 
 
 # The game starts here.
@@ -27,6 +29,11 @@ label start:
     e "You've created a new Ren'Py game."
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
+
+    show twitch
+
+    t "i was hiding"
+
 
     # This ends the game.
 
