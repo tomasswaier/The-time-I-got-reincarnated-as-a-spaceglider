@@ -5,7 +5,7 @@
 
 define e = Character("Eileen")
 image twitch = "Twitch_Render.png"
-define t = Character("Twitch")
+define t = Character("Twitch", image="twitch")
 
 
 # The game starts here.
