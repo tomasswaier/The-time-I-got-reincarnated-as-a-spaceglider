@@ -4,21 +4,22 @@
 #define v = Character("Village")
 
 
-label introduction:
+label introduction(t):
   scene village 
   with dissolve
+  $ v =entity(Character("villager"),10,1,1,0)
 
-  show twitch at left with dissolve
+  show twitch talk at left with dissolve
 
-  t "Where am I?" #im not a literature major
+  t.C "Where am I?" #im not a literature major
   
   show villager at right
 
-  v "How do you not know where you are?"
-  v "You must know how you got here, no?"
+  v.C "How do you not know where you are?"
+  v.C "You must know how you got here, no?"
 
-  t "I kind of just {i}appeared{/i}?"
+  t.C "I kind of just {i}appeared{/i}?"
 
-  v "Huh?"
+  v.C "Huh?"
 
   return
