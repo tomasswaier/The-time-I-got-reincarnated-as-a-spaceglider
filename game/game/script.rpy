@@ -1,40 +1,37 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-image twitch = "Twitch_Render.png"
-define t = Character("Twitch")
+﻿
 
 
-# The game starts here.
+#we create entity class that holds basic values
+init python:
+
+  class entity:
+
+    def __init__(self,character,health=100,attack_demage=5,attack_speed=1,observation=0):
+      self.C=character
+      self.HP=health
+      self.AD=attack_demage
+      self.AS=attack_speed
+      self.OBS=observation
+
+
+
 
 label start:
-
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene bg room
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    $ twitch =entity(Character("Twitch",image='twitch'),10,1,1,0)
+    
+    $ examplePerson=entity(Character("Veronika"),10,1,1,0)
+    show twitch walk
+    twitch.C "my Name is twitch"
+    
+    twitch.C talk"I am talking"
+    
 
-    show eileen happy
+    twitch.C "i was hiding"
+    
+    scene owo
+    examplePerson.C "im also here"
 
-    # These display lines of dialogue.
-
-    e "You've created a new Ren'Py game."
-
-    e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    show twitch
-
-    t "i was hiding"
-
-
-    # This ends the game.
 
     return
