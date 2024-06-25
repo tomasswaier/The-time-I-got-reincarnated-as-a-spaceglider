@@ -1,5 +1,4 @@
-﻿#we create entity class that holds basic values
-
+﻿#we create entity class that holds basic values
 init python:
 
   class entity:
@@ -15,22 +14,23 @@ init python:
 
 
 label start:
-    scene bg room
 
-    $ twitch =entity(Character("Twitch",image='twitch'),10,1,1,0)
     
-    $ examplePerson=entity(Character("Veronika"),10,1,1,0)
-    show twitch walk
-    twitch.C "my Name is twitch"
-    
-    twitch.C talk"I am talking"
-    
-
-    twitch.C "i was hiding"
-    
-    scene owo
-    examplePerson.C "im also here"
-
+    $ twitch=entity(Character("Twitch",image='twitch'),10,1,2,0)
+    #call reincatnation(twitch)
     call introduction(twitch)
-    twitch.C "THIS IS THE END -----------------------------------"
+    
+
+    call test(twitch)
     return
+label test(t):
+    $ dummy=entity(Character("Weiss Schnee",image='dummy'),10,1,1,0)
+      
+    scene bg fight
+    show dummy talk at left with dissolve
+    show twitch talk at right with dissolve
+    call fight(t,dummy)
+#    if result=='loss':	
+#    "you lost"
+#    else:
+#    "you won"
