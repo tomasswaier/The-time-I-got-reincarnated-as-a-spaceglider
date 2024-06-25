@@ -17,7 +17,7 @@ label start:
 
     
     $ twitch=entity(Character("Twitch",image='twitch'),10,1,2,0)
-    #call reincatnation(twitch)
+    call reincarnation(twitch)
     call introduction(twitch)
     
 
