@@ -1,0 +1,11 @@
+draw : (characters): 
+  twitch )attack : talk : walk : base
+  draven )attack : talk :
+  lulu   )talk   : get hooked :
+  thresh )talk   : hooking : his hook animation
+  (land):
+  vilage : far away : upclose : inside :
+  mosnters :
+  people :city guard (fight: talk) : introduction person:
+
+fights : interactive with shield timing 
