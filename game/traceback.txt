@@ -1,28 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 20, in script call
-    call reincarnation(twitch)
-  File "game/reincarnation.rpy", line 10, in script
-    thresh.C 'where is he?'
-Exception: Sayer 'thresh.C' is not defined.
+  File "game/script.rpy", line 21, in script call
+    call introduction(twitch)
+  File "game/introduction.rpy", line 61, in script
+    guard.C "State your name and you business in this village"
+Exception: Sayer 'guard.C' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 20, in script call
-    call reincarnation(twitch)
-  File "game/reincarnation.rpy", line 10, in script
-    thresh.C 'where is he?'
+  File "game/script.rpy", line 21, in script call
+    call introduction(twitch)
+  File "game/introduction.rpy", line 61, in script
+    guard.C "State your name and you business in this village"
   File "/home/mary/arch/projects/renpy-8.2.3-sdk/renpy/ast.py", line 2560, in execute
     Say.execute(self)
   File "/home/mary/arch/projects/renpy-8.2.3-sdk/renpy/ast.py", line 575, in execute
     who = eval_who(self.who, self.who_fast)
   File "/home/mary/arch/projects/renpy-8.2.3-sdk/renpy/ast.py", line 464, in eval_who
     raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'thresh.C' is not defined.
+Exception: Sayer 'guard.C' is not defined.
 
-Linux-6.9.5-arch1-1-x86_64-with-glibc2.39 x86_64
+Linux-6.9.6-arch1-1-x86_64-with-glibc2.39 x86_64
 Ren'Py 8.2.3.24061702
 The time I got reincarnated as a spaceglider 1.0
-Tue Jun 25 14:28:30 2024
+Thu Jun 27 13:20:29 2024

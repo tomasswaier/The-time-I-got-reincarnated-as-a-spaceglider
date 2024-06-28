@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/introduction.rpy", line 33: end of line expected.
-    hide t.C talk
-          ^
+File "game/introduction.rpy", line 72: Tab characters are not allowed in Ren'Py scripts.
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Tue Jun 25 17:14:44 2024
+Thu Jun 27 13:43:46 2024
