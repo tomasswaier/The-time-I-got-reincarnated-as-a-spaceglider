@@ -6,7 +6,7 @@
 
 label introduction(t):
   #todo show everyhing blacj (LAUGH ITS A TWITCH REFERENCE)
-  scene bg black
+  scene bg blackzR
   t.C "wait... what's happening? Why is everything black ?"
 
   
@@ -46,9 +46,40 @@ label introduction(t):
 
   #image of a village in background
 
+  $ guard = entity(Character("City Guard",color='#444444',image='guard'),5,1,1,1)
+
 
   "manly voice" "{b}HEY YOU STOP RIGHT THERE{/b}"
 
 
-  "*you see a man approaching you*"
+  "*you see armored man approaching you*"
 
+  show guard walk at right
+
+
+  menu :
+    guard.C "State your name and you business in this village"
+    
+    "HAVE YOU SEEN MY KITTEN???!!!??":
+      guard.C "A haven't seen anyone and you better get out you dirty rat"
+      
+    "*attack him*":
+      "test2"
+
+    "Hello there dear sir. Would perhaps know of ...":
+      guard.C "Oh I didn't realise you we're such a distinguished gentleman."
+
+      menu:	
+        guard.C "Are you perhaps the person our chief is expecting ? Come right trough"
+
+	"Uhhhh":
+	  guard.C "Oh and I'd completely forget ... Where did i put that thing"
+	"Awww I'm uhhhh well I don'...":
+	  guard.C "Oh and I'd completely forget ... Where did i put that thing"
+	"MNNnnmnm":
+	  guard.C "Oh and I'd completely forget ... Where did i put that thing"
+      "you get an item --- finish this part ---"
+
+  "TEST 00011"
+label test1:
+  "IN TEST 1 )(*@#)(!*#)(*#*!)(#*@!)#*) " 

@@ -3,6 +3,8 @@ draw : (characters):
   draven )attack : talk :
   lulu   )talk   : get hooked :
   thresh )talk   : hooking : his hook animation
+  guard  )walk   : talk : fight :
+
   (land):
   vilage : far away : upclose : inside :
   mosnters :
