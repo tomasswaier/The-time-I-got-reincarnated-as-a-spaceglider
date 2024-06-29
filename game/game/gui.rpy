@@ -19,6 +19,13 @@ define config.check_conflicting_properties = True
 ## GUI Configuration Variables
 ################################################################################
 
+## Cursors #####################################################################
+##
+define config.mouse = {}
+#Default cursor
+define config.mouse['default'] = [("gui/cursors/normal.png", 0, 0)]
+define config.mouse['pressed_default'] = [("gui/cursors/pressed.png", 0, 0)]
+define config.mouse['button'] = [("gui/cursors/hover.png", 0, 0)]
 
 ## Colors ######################################################################
 ##
@@ -56,13 +63,13 @@ define gui.interface_text_color = '#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "images/fonts/Spiegel-Regular.otf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "images/fonts/BeaufortForLOL-Bold.otf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "images/fonts/Spiegel-Bold.otf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 22
@@ -81,6 +88,8 @@ define gui.notify_text_size = 16
 
 ## The size of the game's title.
 define gui.title_text_size = 50
+define gui.title_text_font = "images/fonts/BeaufortForLOL-Bold.otf"
+define gui.title_text_color = "#C89B3C" #gold4
 
 
 ## Main and Game Menus #########################################################
