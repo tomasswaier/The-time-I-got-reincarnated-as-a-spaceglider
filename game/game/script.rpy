@@ -18,7 +18,7 @@ label start:
     
     $ twitch=entity(Character("Twitch",image='twitch'),10,1,2,0)
     call reincarnation(twitch)
-    call introduction(twitch)
+    call introduction(twitch) #commented out lebo nefunguje hra, nevermind, fixed
     
 
     call test(twitch)

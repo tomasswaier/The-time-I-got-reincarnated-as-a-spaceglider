@@ -57,29 +57,29 @@ label introduction(t):
   show guard walk at right
 
 
-  menu :
-    guard.C "State your name and you business in this village"
+  menu:
+    guard.C "State your name and your business in this village"
     
     "HAVE YOU SEEN MY KITTEN???!!!??":
-      guard.C "A haven't seen anyone and you better get out you dirty rat"
+        guard.C "A haven't seen anyone and you better get out you dirty rat"
       
     "*attack him*":
-      "test2"
+        "test2"
 
     "Hello there dear sir. Would perhaps know of ...":
-      guard.C "Oh I didn't realise you we're such a distinguished gentleman."
+        guard.C "Oh I didn't realise you were such a distinguished gentleman."
 
-      menu:	
-        guard.C "Are you perhaps the person our chief is expecting ? Come right trough"
+        menu:    
+            guard.C "Are you perhaps the person our chief is expecting? Come right through"
 
-	"Uhhhh":
-	  guard.C "Oh and I'd completely forget ... Where did i put that thing"
-	"Awww I'm uhhhh well I don'...":
-	  guard.C "Oh and I'd completely forget ... Where did i put that thing"
-	"MNNnnmnm":
-	  guard.C "Oh and I'd completely forget ... Where did i put that thing"
-      "you get an item --- finish this part ---"
+            "Uhhhh":
+                guard.C "Oh and I'd completely forget ... Where did I put that thing"
+            "Awww I'm uhhhh well I don'...":
+                guard.C "Oh and I'd completely forget ... Where did I put that thing"
+            "MNNnnmnm":
+                guard.C "Oh and I'd completely forget ... Where did I put that thing"
 
+        "you get an item --- finish this part ---"
   "TEST 00011"
 label test1:
   "IN TEST 1 )(*@#)(!*#)(*#*!)(#*@!)#*) " 

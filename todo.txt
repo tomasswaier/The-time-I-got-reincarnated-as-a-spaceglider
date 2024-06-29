@@ -11,3 +11,6 @@ draw : (characters):
   people :city guard (fight: talk) : introduction person:
 
 fights : interactive with shield timing 
+
+frame.png gets squished by game automatically and turns out kinda ugly... figure out fix
+also, hjello luv :>
