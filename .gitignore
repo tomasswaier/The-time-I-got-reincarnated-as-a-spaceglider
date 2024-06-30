@@ -1,1 +1,5 @@
 start.sh
+/game/errors.txt
+/game/log.txt
+/game/traceback.txt
+/game/game/saves

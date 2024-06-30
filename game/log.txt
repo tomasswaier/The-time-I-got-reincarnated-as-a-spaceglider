@@ -1,24 +1,43 @@
-2024-06-27 11:43:46 UTC
-Linux-6.9.6-arch1-1-x86_64-with-glibc2.39
+2024-06-29 16:46:48 UTC
+Linux-6.5.0-41-generic-x86_64-with-glibc2.35
 Ren'Py 8.2.3.24061702
 
 Early init took 0.06s
 Loading error handling took 0.04s
-Loading script took 0.09s
-Loading save slot metadata took 0.04s
+Loading script took 0.11s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-
-File "game/introduction.rpy", line 72: Tab characters are not allowed in Ren'Py scripts.
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/missadora/.renpy/backups/game':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
 DPI scale factor: 1.000000
-Interface start took 0.26s
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.25s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'Intel'"
-Renderer: b'Mesa Intel(R) Graphics (RPL-P)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.1.2-arch1.1'
+Renderer: b'Mesa Intel(R) HD Graphics 5500 (BDW GT2)'
+Version: b'4.6 (Compatibility Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
+Screen sizes: virtual=(1280, 720) physical=(1220, 686) drawable=(1220, 686)
 Maximum texture size: 4096x4096

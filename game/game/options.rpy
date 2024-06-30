@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("The time I got reincarnated as a spaceglider")
+define config.name = _("THE TIME I GOT REINCARNATED AS A SPACEGLIDER") #in caps for league font
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
