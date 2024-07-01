@@ -16,12 +16,14 @@ init python:
 label start:
 
     
-    $ twitch=entity(Character("Twitch",image='twitch'),10,1,2,0)
+    $ twitch=entity(Character("Twitch",image='twitch'),10,1,1,0)
     call reincarnation(twitch)
+    #twitch gets reincarnated and after encounter with city guard he enters the town
     call introduction(twitch) #commented out lebo nefunguje hra, nevermind, fixed
-    
+    # something in town 
+    # call something    
 
-    call test(twitch)
+    #call test(twitch)
     return
 label test(t):
     $ dummy=entity(Character("Weiss Schnee",image='dummy'),10,1,1,0)

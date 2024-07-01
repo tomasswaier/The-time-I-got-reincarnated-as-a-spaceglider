@@ -8,10 +8,10 @@ label fight(t,enemy):
   while t.HP >0 and enemy.HP >0:
     $ i =0 
     while i<t.AS:
-      t.C walk "I attack and your HP is now [enemy.HP - t.AD]"
+      "Enemy hp just dropped to [enemy.HP - t.AD]"
       $ enemy.HP = enemy.HP- t.AD
       $ i+=1
-    enemy.C fighting"I attack and your HP is now [t.HP - enemy.AD]"
+    enemy.C fighting"as the enemy attacks you and now you have  [t.HP - enemy.AD] HP"
     $ t.HP = t.HP- enemy.AD
     
   return 'won'
