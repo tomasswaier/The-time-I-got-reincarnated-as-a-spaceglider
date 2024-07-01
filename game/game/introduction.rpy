@@ -36,7 +36,7 @@ label introduction(t):
 
   scene bg filler1
 
-  show twitch walk
+  show twitch walk at left
   
   t.C "I have to find her"
 
@@ -62,10 +62,22 @@ label introduction(t):
     
     "HAVE YOU SEEN MY KITTEN???!!!??":
         guard.C "A haven't seen anyone and you better get out you dirty rat"
-      
+        twitch.C "You will pay for this"
+        call fight(twitch,guard)
+        "As you look trough his posessions you find flashy boots and a healing potion"
+        "you heal your self and your HP is back to full"
+        "As you are looking at those shoes you can't but thing you've seeen them before..."
+        "YOU HAVE. Those are Berserkes Greaves . As you put them on you can feel your Attack Speed rising"
+        $ twitch.AS+=1
+        $ twitch.HP=10
     "*attack him*":
-        "test2"
-
+        call fight(twitch,guard) 
+        "As you look trough his posessions you find flashy boots and a healing potion"
+        "you heal your self and your HP is back to full"
+        "As you are looking at those shoes you can't but thing you've seeen them before..."
+        "YOU HAVE. Those are Berserkes Greaves . As you put them on you can feel your Attack Speed rising"
+        $ twitch.AS+=1
+        $ twitch.HP=10
     "Hello there dear sir. Would perhaps know of ...":
         guard.C "Oh I didn't realise you were such a distinguished gentleman."
 
@@ -78,8 +90,18 @@ label introduction(t):
                 guard.C "Oh and I'd completely forget ... Where did I put that thing"
             "MNNnnmnm":
                 guard.C "Oh and I'd completely forget ... Where did I put that thing"
+        
+        "The guard hands you boots"
+        guard.C "Chief said you'll want them"
+        "As you inspect the item you start recognizing it ..."
+        "It's Berserker's Greaves"
+        "As you put them on you can feel you'r attack speed increasing"
+        $ twitch.AS+=1
+  menu:
+      "Choose your path"
 
-        "you get an item --- finish this part ---"
-  "TEST 00011"
-label test1:
-  "IN TEST 1 )(*@#)(!*#)(*#*!)(#*@!)#*) " 
+      "go to city":
+        "you are walking to the city's main gate"
+      "go the completely oposite way":
+        "as you walk to the city you realise that ... what ? you are in the city... how peculiar"
+
