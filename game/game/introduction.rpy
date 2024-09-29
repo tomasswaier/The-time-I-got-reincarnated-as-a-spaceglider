@@ -46,7 +46,7 @@ label introduction(t):
 
   #image of a village in background
 
-  $ guard = entity(Character("City Guard",color='#444444',image='guard'),5,1,1,1)
+  $ guard = entity(Character("City Guard",color='#444444',image='guard'),7,1,1,1)
 
 
   "manly voice" "{b}HEY YOU STOP RIGHT THERE{/b}"

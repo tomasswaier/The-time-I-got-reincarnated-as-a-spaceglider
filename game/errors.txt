@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/introduction.rpy", line 72: Tab characters are not allowed in Ren'Py scripts.
+File "game/fight.rpy", line 32: 'renpy' is not a keyword argument or valid child of the screen statement.
+    renpy.pause(0.5)
+         ^
 
 Ren'Py Version: Ren'Py 8.2.3.24061702
-Sat Jun 29 18:27:54 2024
+Sun Sep 29 19:04:13 2024
